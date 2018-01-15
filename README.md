@@ -9,7 +9,9 @@ Abhijit Guha Roy, Sailesh Conjeti, Sri Phani Krishna Karri, Debdoot Sheet, Amin 
 "ReLayNet: retinal layer and fluid segmentation of macular optical coherence tomography using fully convolutional networks," 
 Biomed. Opt. Express 8, 3627-3642 (2017) 
 
-Coded by: A. Guha Roy and S. Conjeti
+If you face any issues running the code, let me know my posting in issues.
+
+Enjoy!!! :) 
 
 ------------------
 
