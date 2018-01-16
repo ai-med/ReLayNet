@@ -49,3 +49,13 @@ where initialize, inpt.expDir = 'Exp01_ReLayNet_ChoroidSegmentation'
 7. In the code check the hyper parameters like learning rate, number of class, epochs etc
 
 -----------------------------
+
+# Deployment of Model
+
+The folder Trained Model consist of 8 Models from 8 Fold Cross Validation from the paper
+
+In the RunFile folder, the function 'EnsembleTest' takes in a OCT scan from a specified Directory and File Extension. Provides the 10 Class segmentation as an average of predictions from all 8 models.
+
+The performance was tested with decent results from Heidelberg Engineering (Spectralis) OCT Machine. 
+
+For other OCT scans (eg: Nidek, Cirrus) dedicated models need to be trained.
