@@ -63,12 +63,24 @@ For other OCT scans (eg: Nidek, Cirrus) dedicated models need to be trained.
 The classes corresponding to segmentation IDs are:
 
 [Cls 1:] Region above the retina (RaR); 
+
 [Cls 2:] ILM: Inner limiting membrane;  
+
 [Cls 3:] NFL-IPL: Nerve fiber ending to Inner plexiform layer; 
+
 [Cls 4:] INL: Inner Nuclear layer; 
+
 [Cls 5:] OPL: Outer plexiform layer; 
+
 [Cls 6:] ONL-ISM: Outer Nuclear layer to Inner segment myeloid; 
+
 [Cls 7:] ISE: Inner segment ellipsoid;
+
 [Cls 8:] OS-RPE: Outer segment to Retinal pigment epithelium; 
+
 [Cls 9:] Region below RPE (RbR)
+
 [Cls 10:] Fluid region
+
+-----------------------------
+
