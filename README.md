@@ -5,7 +5,7 @@ Code and Trained Models
 -----------------
 If you use this code, please cite:
 
-Abhijit Guha Roy, Sailesh Conjeti, Sri Phani Krishna Karri, Debdoot Sheet, Amin Katouzian, Christian Wachinger, and Nassir Navab, 
+A. Guha Roy, S. Conjeti, S.P.K. Karri, D. Sheet, A. Katouzian, C. Wachinger, and N. Navab, 
 "ReLayNet: retinal layer and fluid segmentation of macular optical coherence tomography using fully convolutional networks," 
 Biomed. Opt. Express 8, 3627-3642 (2017) 
 
