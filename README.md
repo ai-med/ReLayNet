@@ -30,13 +30,13 @@ Copy /layers/dagnn wrappers/ ---> <MatConvNet_HomeFolder>/matlab/+dagnn/
 
 4. Create an experiment Folder ex: 'Exp01_ReLayNet_ChoroidSegmentation'
 
-5. Create Imdb of the dataset (To know how to create imdb, refer: http://germanros.net/online-courses/hands-on-dl/)
+5. Create Imdb of the dataset (Follow instructions below)
 
 It is basically a structure: 
 
-imdb.images.data is a 4D tensor as [height, width, channel, NumberOfData]
+imdb.images.data is a 4D matrix of size: [height, width, channel, NumberOfData]
 
-imdb.images.labels is a 4D tensor as [height, width, 2, NumberOfData] ---> 1st Channel is class (1,2,... etc), 2nd channel is Instance Weights (Refer the paper)
+imdb.images.labels is a 4D matrix of size: [height, width, 2, NumberOfData] ---> 1st Channel is class (1,2,... etc), 2nd channel is Instance Weights (All voxels with a class label is assigned a weight, details in paper) 
 
 imdb.images.set is [1,NumberOfData] vector with entries 1 or 3 indicating which data is for training and validation respectively.
 
