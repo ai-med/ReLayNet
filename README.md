@@ -28,7 +28,7 @@ Copy /layers/dagnn wrappers/ ---> <MatConvNet_HomeFolder>/matlab/+dagnn/
 
 3. Copy Rest of the files in another home Folder
 
-4. Create an experiment Folder ex: 'Exp01_ReLayNet_ChoroidSegmentation'
+4. Create an experiment Folder ex: 'Exp01_ReLayNet_LayerAndFluidSegmentation'
 
 5. Create Imdb of the dataset (Follow instructions below)
 
