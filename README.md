@@ -13,6 +13,8 @@ If you face any issues running the code, let me know by posting in issues.
 
 Enjoy!!! :) 
 
+PyTorch Implementation of this code available at: https://github.com/abhi4ssj/relaynet_pytorch
+
 ------------------
 
 
